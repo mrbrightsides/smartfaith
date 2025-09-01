@@ -96,7 +96,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
                   <div className="flex flex-1 items-center">
                     <Input
                       name="prompt"
-                      placeholder="Ask a question..."
+                      placeholder="Silakan tulis disini pertanyaan kamu..."
                       onChange={(e) => setInput(e.target.value)}
                       value={input}
                       autoFocus
@@ -194,7 +194,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
               <div className="flex flex-1 items-center">
                 <Input
                   name="prompt"
-                  placeholder="Ask a question..."
+                  placeholder="Silakan tulis disini pertanyaan kamu..."
                   onChange={(e) => setInput(e.target.value)}
                   value={input}
                   className="flex-1 border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 text-base placeholder:text-muted-foreground/60 font-medium"
@@ -225,24 +225,24 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
 
       <footer className="pb-8 text-center animate-fade-in" style={{ animationDelay: '200ms' }}>
         <p className="text-xs md:text-sm text-muted-foreground">
-          The models in the list are a small subset of those available in the
-          Vercel AI Gateway.
+          Ini merupakan versi khusus chat AI untuk SmartFaith
+          Asisten Islami.
           <br />
-          See the{" "}
+          Lihat di{" "}
           <Button
             variant="link"
             asChild
             className="p-0 h-auto text-xs md:text-sm font-normal"
           >
             <a
-              href="https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%2Fmodel-list&title="
+              href="https://smartfaith.streamlit.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               model library
             </a>
           </Button>{" "}
-          for the full set.
+          untuk versi lengkapnya.
         </p>
       </footer>
     </div>
