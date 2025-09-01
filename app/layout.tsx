@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SmaartFaith AI",
+  title: "SmartFaith AI",
   description: "Kumpulan Gateway AI Islami",
 };
 
