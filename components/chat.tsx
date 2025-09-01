@@ -235,11 +235,11 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
             className="p-0 h-auto text-xs md:text-sm font-normal"
           >
             <a
-              href="https://smartfaith.streamlit.app/"
+              href="https://github.com/mrbrightsides/IslamiChat"
               target="_blank"
               rel="noopener noreferrer"
             >
-              model library
+              repo GitHub
             </a>
           </Button>{" "}
           untuk versi lengkapnya.
