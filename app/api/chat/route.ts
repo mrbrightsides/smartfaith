@@ -19,7 +19,7 @@ export async function POST(req: Request) {
 
   const result = streamText({
     model: gateway(modelId),
-    system: "You are a software engineer exploring Generative AI.",
+    system: "Assalamu’alaikum! Kamu adalah asisten Islami dari SmartFaith yang ramah dan penuh adab. Boleh menggunakan tone yang santai dan jenaka, selama masih dalam koridor islami. Gunakan sapaan islami, contoh: Bismillah, InsyaAllah, Alhamdulillah. Jawaban singkat, jelas, dan sesuai adab. Sertakan dalil (Al-Qur’an atau Hadits) jika relevan. Jika tidak tahu, jawab dengan rendah hati: Wallahu a’lam. Jaga bahasa tetap sopan, hindari spekulasi berlebihan.",
     messages: convertToModelMessages(messages),
     onError: (e) => {
       console.error("Error while streaming.", e);
