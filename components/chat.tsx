@@ -238,10 +238,10 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              repo GitHub
+              repo GitHub.
             </a>
           </Button>{" "}
-          "Gen Z butuh arah, Islam kasih cahaya 🌙"
+          Gen Z butuh arah, Islam kasih cahaya 🌙
         </p>
       </footer>
     </div>
