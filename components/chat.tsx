@@ -77,7 +77,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
           <div className="w-full max-w-2xl text-center space-y-8 md:space-y-12">
             <h1 className="text-3xl md:text-6xl font-light tracking-tight text-foreground animate-slide-up">
               <span className="font-mono font-semibold tracking-tight bg-foreground text-background px-4 py-3 rounded-2xl shadow-border-medium">
-                SMARTFAITH AI
+                GenZBot
               </span>
             </h1>
             <div className="w-full animate-slide-up" style={{ animationDelay: '100ms' }}>
@@ -225,10 +225,9 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
 
       <footer className="pb-8 text-center animate-fade-in" style={{ animationDelay: '200ms' }}>
         <p className="text-xs md:text-sm text-muted-foreground">
-          Ini merupakan versi khusus chat AI untuk SmartFaith
-          Asisten Islami.
+          GenZBot by SmartFaith – ruang ngobrol islami untuk generasi muda.
           <br />
-          Lihat di{" "}
+          Kontribusi dan Source ada di{" "}
           <Button
             variant="link"
             asChild
@@ -242,7 +241,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
               repo GitHub
             </a>
           </Button>{" "}
-          untuk versi lengkapnya.
+          "Gen Z butuh arah, Islam kasih cahaya 🌙"
         </p>
       </footer>
     </div>
